@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Живая Рыба — рыба и морепродукты в Дербенте</title>
+<meta name="description" content="Магазин «Живая Рыба» в Дербенте: свежая рыба, морепродукты, живые раки. Проспект Агасиева, 8. Ежедневно 09:00–18:00.">
+<style>
+  :root{
+    --deep:#0e3b43; --sea:#14666f; --accent:#e8a13a; --bg:#f6f8f8; --text:#24313a;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"Segoe UI",Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+  header{background:linear-gradient(135deg,var(--deep),var(--sea));color:#fff;padding:60px 20px;text-align:center}
+  header h1{font-size:2.4rem;letter-spacing:.5px}
+  header p{max-width:640px;margin:14px auto 0;opacity:.92;font-size:1.1rem}
+  .badge{display:inline-block;background:var(--accent);color:#222;padding:6px 16px;border-radius:20px;font-weight:600;margin-bottom:18px}
+  nav{background:var(--deep);position:sticky;top:0;z-index:10;display:flex;justify-content:center;gap:4px;flex-wrap:wrap}
+  nav a{color:#fff;text-decoration:none;padding:12px 18px;font-size:.95rem}
+  nav a:hover{background:rgba(255,255,255,.12)}
+  section{max-width:960px;margin:0 auto;padding:56px 20px}
+  h2{color:var(--deep);margin-bottom:22px;font-size:1.7rem;text-align:center}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+  .card{background:#fff;border-radius:14px;padding:26px;box-shadow:0 6px 18px rgba(14,59,67,.08);text-align:center}
+  .card .ico{font-size:2.2rem}
+  .card h3{color:var(--sea);margin:10px 0 8px}
+  .contacts{background:#fff;border-radius:14px;padding:34px;box-shadow:0 6px 18px rgba(14,59,67,.08);display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;text-align:center}
+  .contacts b{display:block;color:var(--deep);margin-bottom:6px;font-size:1.05rem}
+  .btn{display:inline-block;background:var(--accent);color:#222;font-weight:700;padding:13px 30px;border-radius:30px;text-decoration:none;margin-top:10px}
+  .btn:hover{filter:brightness(1.07)}
+  .cta{text-align:center}
+  footer{background:var(--deep);color:#cfe3e6;text-align:center;padding:22px;font-size:.9rem}
+  @media(max-width:600px){header h1{font-size:1.8rem}}
+</style>
+</head>
+<body>
+
+<header>
+  <span class="badge">Дербент · пр. Агасиева, 8</span>
+  <h1>Живая Рыба</h1>
+  <p>Свежая рыба, морепродукты и живые раки каждый день. Каспийский выбор — по честным ценам, с доставкой по городу.</p>
+</header>
+
+<nav>
+  <a href="#about">О магазине</a>
+  <a href="#goods">Ассортимент</a>
+  <a href="#contacts">Контакты</a>
+</nav>
+
+<section id="about">
+  <h2>О магазине</h2>
+  <div class="grid">
+    <div class="card"><div class="ico">🐟</div><h3>Только свежее</h3><p>Поставки рыбы и морепродуктов каждый день. Живая рыба и раки — всегда в наличии.</p></div>
+    <div class="card"><div class="ico">🔥</div><h3>Готовим на углях</h3><p>Варим раков и жарим рыбку на углях — приходите сразу к ужину.</p></div>
+    <div class="card"><div class="ico">❄️</div><h3>Заморозка и икра</h3><p>Большой выбор замороженной рыбы, икры и деликатесов из Каспия.</p></div>
+  </div>
+</section>
+
+<section id="goods">
+  <h2>Ассортимент</h2>
+  <div class="grid">
+    <div class="card"><h3>Живая рыба</h3><p>Сазан, карп, судак — по сезону.</p></div>
+    <div class="card"><h3>Раки</h3><p>Живые и варёно-мороженые раки.</p></div>
+    <div class="card"><h3>Морепродукты</h3><p>Креветки, кальмары, мидии, черноморская барабулька.</p></div>
+    <div class="card"><h3>Икра и деликатесы</h3><p>Красная и чёрная икра, соленья, рыбные деликатесы.</p></div>
+  </div>
+</section>
+
+<section id="contacts">
+  <h2>Контакты</h2>
+  <div class="contacts">
+    <div><b>Адрес</b>г. Дербент, проспект Агасиева, 8<br>(вход с ул. Орджоникидзе)</div>
+    <div><b>Телефон</b><a href="tel:+79285110604">+7 928 511-06-04</a></div>
+    <div><b>Часы работы</b>Ежедневно<br>09:00 – 18:00</div>
+    <div><b>Как добраться</b><a href="https://yandex.ru/maps/org/zhivaya_ryba/188092600125/" target="_blank" rel="noopener">Открыть в Яндекс.Картах</a></div>
+  </div>
+  <p class="cta"><a class="btn" href="tel:+79285110604">Позвонить и заказать</a></p>
+</section>
+
+<footer>
+  «Живая Рыба» — рыба и морепродукты в Дербенте · пр. Агасиева, 8 · +7 928 511-06-04
+</footer>
+
+</body>
+</html>
